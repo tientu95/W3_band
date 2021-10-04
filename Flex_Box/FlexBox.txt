@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+CSS flexbox
+ display: flex | inline-flex
+ flex-direction: row | column : Huong main axis hang ngang | hang direction
+ flex-wrap: nowrap | wrap | wrap-reverse : Xuong dong
+ flex-basic:value: kich thuc main size
+ justify-content: flex-start | flex-end | center | space-between | space-around
+ Can le theo main axis dung cho thang cha
+ justify-self: flex-start | flex -end | center
+ Can le theo main axis dung cho item
+ align-content: flex-start | flex -end | center
+ Can le theo cross axis dung cho thang cha
+ align-self: flex-start | flex -end | center
+ Can le theo cross axis dung cho item
+ Fex-grow: tang kich thuoc main size (gian ra)
+ flex-shrink: giam kich thuoc main size (thu lai)
+ flex : 
+ order: thay doi vi tri
+ 

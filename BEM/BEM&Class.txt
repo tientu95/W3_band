@@ -1,0 +1,6 @@
+BEM la tieu chuan dat ten class khi viet CSS
+Y nghia:
+Viet tat: Block Element Modifier
+-Block: Khoi
+-Element:Thanh Phan trong Khoi
+-Modifier: Bo sung y nghia cho Block hoac Element

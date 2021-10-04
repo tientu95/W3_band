@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ShowToast.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Success -->
+    <div id="toast"></div>
+        <!-- Info -->
+
+    <!-- <div class="toast toast--info">
+        <div class="toast__icon">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+        </div>
+        <div class="toast__body">
+            <h3 class="toast__title">Success</h3>
+            <p class="toast__msg">Thong bao thanh cong</p>
+        </div>
+        <div class="toast__close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+
+        </div>
+    </div> -->
+        <!-- Warning -->
+
+    <!-- <div class="toast toast--warning">
+        <div class="toast__icon">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+        </div>
+        <div class="toast__body">
+            <h3 class="toast__title">Success</h3>
+            <p class="toast__msg">Thong bao thanh cong</p>
+        </div>
+        <div class="toast__close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+
+        </div>
+    </div> -->
+        <!-- Error -->
+
+    <!-- <div class="toast toast--error">
+        <div class="toast__icon">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+        </div>
+        <div class="toast__body">
+            <h3 class="toast__title">Success</h3>
+            <p class="toast__msg">Thong bao thanh cong</p>
+        </div>
+        <div class="toast__close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+
+        </div>
+    </div> -->
+
+    <div>
+        <div onclick="showSuccessToast();" class="btn btn--success">Show success</div>
+        <div onclick="showErrorToast();" class="btn btn--danger">Show error toast</div>
+        <div onclick="showWarningToast();" class="btn btn--wars">Show Warning toast</div>
+    </div>
+   
+    <script>
+        
+        
+        function showSuccessToast (){
+            toast({
+            title: 'Success ',
+            message: 'Chuc mung ban da dang ky thanh cong ',
+            type: 'success',
+            duration: 3000
+            
+        });
+        }
+        function showErrorToast (){
+            toast({
+            title: 'Error ',
+            message: 'Co loi',
+            type: 'error',
+            duration: 3000
+            });
+        }
+        function showWarningToast(){
+            toast({
+            title: 'Warning ',
+            message: 'Canh bao',
+            type: 'warning',
+            duration: 3000
+            });
+        }
+    </script>
+</body>
+</html>

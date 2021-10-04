@@ -1,0 +1,90 @@
+/* break point */
+/* mobile */
+@media (max-width: 739px) {
+
+    .s-full-wdth{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    #slider .text-heading{
+        font-size: 20px;
+    }
+    #slider .text-description{
+        font-size: 16px;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        /* // quay ve mac dinh la  */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 12px 32px;
+    }
+    
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    .member-img{
+        width: 100%;
+    }
+    
+    .model-close{
+        margin-top: 15px;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+    
+    
+    
+}
+/* PC */
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+/* IPad */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #mobile-menu {
+        display: none;
+    }
+    #footer .info-list{
+        font-size: 48px;
+    }
+    #footer .info-list a{
+        margin: 0 8px;
+    }
+    #nav .subnav a{
+        padding: 10px 20px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
